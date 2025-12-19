@@ -1,4 +1,4 @@
-Can you do it for me, and update the entire index.  This is current index: <!doctype html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -20,16 +20,16 @@ Can you do it for me, and update the entire index.  This is current index: <!doc
       <div class="container topbar__inner">
         <a class="brand" href="#top" aria-label="Bear Fruit With Christ Home">
           <img class="brand__mark" src="/assets/logo-badge.jpg" alt="Bear Fruit With Christ logo" />
-          <span class="brand__name">Bear Fruit With Christ</span>
+          <span class="brand__name" style="white-space: nowrap;">Bear Fruit With Christ</span>
         </a>
 
         <nav class="nav" aria-label="Primary Navigation">
           <a href="#mission">Mission</a>
           <a href="#results">Results</a>
-          <a href="#reachout">Reach Out</a>
+          <a href="#members">Support the Mission</a>
           <a href="#work">Work With Me</a>
           <a href="#shop">Shop</a>
-          <a href="#support">Support</a>
+          <a href="#support">Give</a>
           <a href="#contact">Contact</a>
         </nav>
 
@@ -37,7 +37,7 @@ Can you do it for me, and update the entire index.  This is current index: <!doc
           <button class="btn btn--ghost" id="themeToggle" type="button" aria-label="Toggle theme">
             <span id="themeIcon">◐</span>
           </button>
-          <a class="btn btn--primary" href="#reachout">Join Reach Out</a>
+          <a class="btn btn--primary" href="#members">Become a Mission Member</a>
         </div>
 
         <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
@@ -49,13 +49,13 @@ Can you do it for me, and update the entire index.  This is current index: <!doc
         <div class="container mobileMenu__inner">
           <a href="#mission">Mission</a>
           <a href="#results">Results</a>
-          <a href="#reachout">Reach Out</a>
+          <a href="#members">Support the Mission</a>
           <a href="#work">Work With Me</a>
           <a href="#speaking">Speaking</a>
           <a href="#shop">Shop</a>
-          <a href="#support">Support</a>
+          <a href="#support">Give</a>
           <a href="#contact">Contact</a>
-          <a class="btn btn--primary" href="#reachout">Join Reach Out</a>
+          <a class="btn btn--primary" href="#members">Become a Mission Member</a>
         </div>
       </div>
     </header>
@@ -90,8 +90,8 @@ Can you do it for me, and update the entire index.  This is current index: <!doc
             </div>
 
             <div class="hero__cta">
-              <a class="btn btn--primary" href="#reachout">Join the Reach Out Project</a>
-              <a class="btn btn--secondary" href="#support">Fund the Reach (Monthly)</a>
+              <a class="btn btn--primary" href="#members">Become a Mission Member</a>
+              <a class="btn btn--secondary" href="#support">Support Monthly</a>
             </div>
 
             <p class="fine">
@@ -103,15 +103,15 @@ Can you do it for me, and update the entire index.  This is current index: <!doc
             <div class="card glow">
               <h3>Start here</h3>
               <p>
-                Want help reaching someone you care about? Join the Reach Out Project.
-                Submit an idea or testimony—get a shareable angle (and sometimes an edit) designed for discovery.
+                Want to help the mission grow? Become a Mission Member.
+                You’ll get updates, new shareable clips, and ways to help spread the Gospel through modern media.
               </p>
               <ul class="checklist">
                 <li>Testimony-based storytelling</li>
-                <li>Skeptic-friendly angles</li>
-                <li>Shareable clips & reels</li>
+                <li>Skeptic-friendly apologetics angles</li>
+                <li>Shareable clips & reels for outreach</li>
               </ul>
-              <a class="btn btn--primary btn--full" href="#reachout">Join + Submit</a>
+              <a class="btn btn--primary btn--full" href="#members">Become a Mission Member</a>
               <a class="btn btn--ghost btn--full" href="#work">Partner (Church / Org / Creator)</a>
             </div>
           </div>
@@ -200,46 +200,46 @@ Can you do it for me, and update the entire index.  This is current index: <!doc
         </div>
       </section>
 
-      <!-- REACH OUT -->
-      <section class="section" id="reachout">
+      <!-- MEMBERS -->
+      <section class="section" id="members">
         <div class="container">
           <div class="section__header">
-            <h2>The Reach Out Project</h2>
+            <h2>Support the Mission</h2>
             <p>
-              Want help reaching someone you love? Join the Reach Out Project and submit your testimony or idea.
-              I’ll craft a shareable angle (and sometimes a cut) designed to reach skeptics and seekers.
+              Become a Mission Member to receive updates, new shareable clips, and ways to help this message reach more people.
+              If you want to partner monthly or give once, head to the Give section below.
             </p>
           </div>
 
           <div class="split">
             <div class="card">
-              <h3>Join the list</h3>
+              <h3>Become a Mission Member</h3>
               <p class="fine">
-                You’ll get updates, submission instructions, and new shareable clips you can send to people in your life.
+                Join the email list for mission updates, new content drops, and shareable clips you can send to people in your life.
               </p>
 
-              <form name="reachout" method="POST" data-netlify="true" action="/thanks.html">
-                <input type="hidden" name="form-name" value="reachout" />
+              <form name="mission-members" method="POST" data-netlify="true" action="/thanks.html">
+                <input type="hidden" name="form-name" value="mission-members" />
                 <label>
                   Email
                   <input type="email" name="email" id="emailInput" placeholder="you@example.com" required />
                 </label>
-                <button class="btn btn--primary btn--full" type="submit">Join Reach Out</button>
+                <button class="btn btn--primary btn--full" type="submit">Join as a Mission Member</button>
                 <p class="fine">By joining, you agree to receive email updates. Unsubscribe anytime.</p>
               </form>
             </div>
 
             <div class="card">
-              <h3>What you can submit</h3>
+              <h3>How Mission Members help</h3>
               <ul class="checklist">
-                <li>Your testimony (short or long)</li>
-                <li>An apologetics question you want answered</li>
-                <li>A “send this to my friend” angle</li>
-                <li>A clip you want edited to reach a specific person</li>
+                <li>Pray for the mission and the people reached</li>
+                <li>Share clips with seekers and friends</li>
+                <li>Support monthly (if you feel led)</li>
+                <li>Partner with your church or organization</li>
               </ul>
               <div class="ctaBox">
-                <p class="fine">Fast launch method: reply to the welcome email with your idea/testimony.</p>
-                <a class="btn btn--secondary btn--full" href="#contact">Contact for submissions</a>
+                <p class="fine">Want to collaborate or sponsor a series? Reach out here.</p>
+                <a class="btn btn--secondary btn--full" href="#contact">Contact</a>
               </div>
             </div>
           </div>
@@ -325,7 +325,7 @@ Can you do it for me, and update the entire index.  This is current index: <!doc
               <div class="product__tag">Digital</div>
               <h3>Life of David Adult + Kid Bible Study</h3>
               <p class="fine">Printable study + bonus coloring book. Built for adults and kids to learn together.</p>
-              <div class="product__meta"><span>$9.99</span><span>Instant download</span></div>
+              <div class="product__meta"><span>$9.99</span><span>Secure checkout</span></div>
               <a
                 class="btn btn--primary btn--full"
                 href="https://buy.stripe.com/6oUfZhbu83Teg2HakH9EI0g"
@@ -334,7 +334,7 @@ Can you do it for me, and update the entire index.  This is current index: <!doc
               >
                 Buy (Secure Checkout)
               </a>
-              <p class="fine note">You’ll be redirected after purchase for your download.</p>
+              <p class="fine note">After purchase, Stripe will send a receipt to your email.</p>
             </div>
 
             <div class="card product">
@@ -343,7 +343,7 @@ Can you do it for me, and update the entire index.  This is current index: <!doc
               <p class="fine">Strategy + clarity + next steps for churches, creators, authors, and ministries.</p>
               <div class="product__meta"><span>Apply</span><span>Limited spots</span></div>
               <a class="btn btn--secondary btn--full" href="#contact">Request a consult</a>
-              <p class="fine note">Not tied to Stripe. We’ll follow up by email.</p>
+              <p class="fine note">We’ll follow up by email.</p>
             </div>
 
             <div class="card product">
@@ -359,17 +359,17 @@ Can you do it for me, and update the entire index.  This is current index: <!doc
               >
                 Give Once
               </a>
-              <p class="fine note">Choose a larger amount on the next screen if you’d like.</p>
+              <p class="fine note">You’ll choose your amount at checkout.</p>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- SUPPORT -->
+      <!-- GIVE -->
       <section class="section" id="support">
         <div class="container">
           <div class="section__header">
-            <h2>Fund the Reach</h2>
+            <h2>Support the Mission</h2>
             <p>
               Bear Fruit With Christ is creator-funded. Monthly and one-time support helps fund filming, editing, travel,
               collaborations, and consistent output—so the message can keep reaching new people organically.
@@ -379,7 +379,7 @@ Can you do it for me, and update the entire index.  This is current index: <!doc
           <div class="split">
             <div class="card">
               <h3>Monthly Partner</h3>
-              <p class="fine">Choose a monthly tier - Cancel anytime in Stripe’s customer portal.</p>
+              <p class="fine">Choose a monthly tier. Cancel anytime in Stripe’s customer portal.</p>
 
               <div class="ctaBox">
                 <a class="btn btn--primary btn--full" href="https://buy.stripe.com/aFa8wP1Ty89u6s78cz9EI08" target="_blank" rel="noopener">
@@ -410,7 +410,7 @@ Can you do it for me, and update the entire index.  This is current index: <!doc
 
             <div class="card">
               <h3>One-time support</h3>
-              <p class="fine">Give a one-time gift - Choose a larger amount below if you’d like.</p>
+              <p class="fine">Give a one-time gift.</p>
 
               <div class="ctaBox">
                 <a class="btn btn--primary btn--full" href="https://buy.stripe.com/28E7sL55K89u9EjakH9EI00" target="_blank" rel="noopener">
@@ -430,7 +430,7 @@ Can you do it for me, and update the entire index.  This is current index: <!doc
                 </a>
               </div>
 
-              <p class="fine note">Want to give $74.99, $499.99, or $999.99? Use your other links or tell me and I’ll add buttons.</p>
+              <p class="fine note">Want to give $74.99, $499.99, or $999.99? Use your other links and I’ll add buttons.</p>
             </div>
           </div>
         </div>
@@ -441,7 +441,7 @@ Can you do it for me, and update the entire index.  This is current index: <!doc
         <div class="container">
           <div class="section__header">
             <h2>Contact</h2>
-            <p>Partnerships, speaking, editing inquiries, or Reach Out submissions—use the form below.</p>
+            <p>Partnerships, speaking, editing inquiries, or general questions—use the form below.</p>
           </div>
 
           <div class="split">
@@ -491,9 +491,9 @@ Can you do it for me, and update the entire index.  This is current index: <!doc
 
           <div class="footer__cols">
             <a href="#results">Results</a>
-            <a href="#reachout">Reach Out</a>
+            <a href="#members">Support the Mission</a>
             <a href="#shop">Shop</a>
-            <a href="#support">Support</a>
+            <a href="#support">Give</a>
           </div>
         </div>
 
