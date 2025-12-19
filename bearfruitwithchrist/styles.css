@@ -1,0 +1,9 @@
+.grid4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+.kpi { padding: 18px; }
+.kpi__num { font-weight: 900; font-size: 28px; letter-spacing: -0.02em; }
+.kpi__label { color: var(--muted); font-size: 13px; margin-top: 6px; line-height: 1.4; }
+.kpi__meta { color: var(--faint); font-size: 12px; margin-top: 8px; }
+
+@media (max-width: 900px) {
+  .grid4 { grid-template-columns: 1fr; }
+}
