@@ -221,7 +221,9 @@
               </p>
 
               <!-- Email capture placeholder -->
-              <form class="form" id="emailForm">
+              <form name="reachout" method="POST" data-netlify="true" action="/thanks.html">
+  <input type="hidden" name="form-name" value="reachout" />
+
                 <label>
                   Email
                   <input type="email" name="email" id="emailInput" placeholder="you@example.com" required />
